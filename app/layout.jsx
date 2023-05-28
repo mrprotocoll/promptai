@@ -1,4 +1,5 @@
-import { Nav, Provider } from '@components/Nav'
+import Nav from '@components/Nav'
+import Provider from '@components/Provider'
 import '@styles/globals.css'
 
 export const metadata = {
