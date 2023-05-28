@@ -12,7 +12,7 @@ export const connectToDB = async () => {
 
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
-      dbName: "share_prompt",
+      dbName: "dami",
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
@@ -24,3 +24,5 @@ export const connectToDB = async () => {
     console.log(error);
   }
 }
+
+// mongodb+srv://dami:<password>@cluster0.qs99i.mongodb.net/?retryWrites=true&w=majority
