@@ -24,5 +24,3 @@ export const connectToDB = async () => {
     console.log(error);
   }
 }
-
-// mongodb+srv://dami:<password>@cluster0.qs99i.mongodb.net/?retryWrites=true&w=majority
